@@ -1,7 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Capa1 {
+
+    width: 500px;
+    height: 300px;
+    border-radius: 7%;
+}
+
 .aura {
 
     width: 200px;
     height: 200px;
+}
+
+.aura2 {
+
+    width: 300px;
+    height: 300px;
+}
+
+.Quest_Board {
+
+    width: 400px;
+    height: 300px;
 }
 
 .Obby {
@@ -22,8 +47,29 @@
     height: 300px;
 }
 
+
+
 .Potions {
 
     width: 100px;
     height: 100px;
+}
+
+.Sand {
+
+    width: 500px;
+    height: 300px;
+}
+
+body {
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 22, 26);
+}
+
+.MyPin{
+
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
