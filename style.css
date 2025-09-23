@@ -47,12 +47,17 @@
     height: 300px;
 }
 
+.gear {
 
+    width: 200px;
+    height: 200px;
+}
 
 .Potions {
 
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(25, 25, 25);
 }
 
 .Sand {
@@ -61,13 +66,49 @@
     height: 300px;
 }
 
+.Bioma1 {
+
+    width: 500px;
+    height: 300px;
+}
+
+.Biomas {
+
+    width: 500px;
+    height: 400px;
+}
+
+.Windy_MSG {
+    color: rgb(124, 255, 255);
+}
+
+.Snowy_MSG {
+
+    color: rgb(171, 248, 255);
+}
+
+.Rainy_MSG {
+
+    color: #4385FF;
+}
+
+.Sand_MSG {
+
+    color: #F4C27C;
+}
+
+.Hell_MSG {
+
+    color: #5C1219;
+}
+
 body {
 
     background-color: rgb(255, 255, 255);
     color: rgb(15, 22, 26);
 }
 
-.MyPin{
+.MyPin {
 
     border-radius: 50%;
     height: 100px;
