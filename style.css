@@ -10,30 +10,92 @@ body {
     color: rgb(0, 0, 0);
 }
 
+.BackgroundHome {
+    color: white;
+    padding: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #000768, #000014);
+}
+
+.Navegação a:link,
+.Navegação a:visited {
+
+    color: #7752ff;
+    text-decoration: none;
+}
+
+.Navegação a:hover,
+.Navegação a:active {
+
+    color: #6c93ff;
+}
+
+.Navegação {
+    position: fixed;
+    padding: 20px;
+    background-color: rgb(7, 4, 10);
+    height: 34%;
+    left: 85%;
+    border-radius: 10px;
+    z-index: 1;
+}
+
 .Capa1 {
 
     width: 500px;
     height: 300px;
     border-radius: 7%;
+    box-shadow: 0px 0px 10px rgba(126, 150, 255, 0.753);
+}
+
+.auraTitle::first-letter {
+    font-size: 2em;
+    color: #0012b1
+}
+
+.auraTitle {
+    font-size: 2em;
+    color: #0012b1
 }
 
 .aura {
 
     width: 200px;
     height: 200px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(126, 150, 255, 0.753);
 }
+
+
 
 .aura2 {
 
     width: 300px;
     height: 300px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(126, 150, 255, 0.753);
 }
+
+
+.Cutscenee::first-letter {
+    font-size: 2em;
+    color: #880088;
+}
+
+.Cutscenee {
+
+    font-size: 2em;
+    color: #880088;
+}
+
 
 .Quest_Board {
 
     width: 400px;
     height: 300px;
 }
+
 
 .Obby {
 
